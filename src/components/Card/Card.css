@@ -1,0 +1,44 @@
+.item-card__container{
+   
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+
+    &:hover{
+        outline: 1px solid var(--text-color);
+    }
+}
+
+.image{
+    background: #e4e4e4;
+    height: 260px;
+    width: 290px;
+}
+
+.card-titles__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text__container{
+    display: flex;
+    flex-direction: column;
+    padding: .55em;
+    text-transform: capitalize;
+}
+
+.card-text-bold{
+    font-weight: 500;
+}
+
+.card-text-shade{
+    color: var(--shadeTxt-color);
+}
+
+.arrival-text{
+    color: var(--accent-color);
+}
+
+.card-link:hover{
+    color: var(--shadeTxt-color);
+}

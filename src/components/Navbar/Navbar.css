@@ -1,0 +1,151 @@
+.nav__container{
+    display: flex;
+    padding: 1.55em 4em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-section__container{
+    display: flex;
+    gap: 1.875em;
+    align-items: center;
+    height: 40px;
+}
+
+.nav-section__container li{
+    &:hover{
+        margin-top: 2px;
+        border-bottom: 2px solid black;
+    }
+}
+
+/* Search Input Styles */
+/* .nav-search__container{
+    display: flex;
+    background: #dbdbdb;
+    border-radius: 16px;
+    height: 32px;
+    align-items: center;
+    &:hover{
+        background: #cfcfcf;
+    }
+}
+
+.nav-search__container input{
+    outline: none;
+    width: 10em;
+    padding: 0 1em;
+    border: none;
+    border-radius: 12px 0 0 12px;
+    background: none;
+    color: var(--text-color);
+    
+} */
+
+/* .nav-search__container button{
+    outline: none;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+} */
+
+.bagIcon{
+    margin-top: 6px;
+}
+
+.nav-toggle-btn{
+    border: none;
+    outline: none;
+    background: none;
+    display: none;
+}
+
+/* Responsive Menu */
+.navbar_menu{  /* contenedor de iconos de menu */
+    display: none;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    position: relative; 
+}
+
+.navbar_menu_container{
+    background: var(--background-color);
+    position: absolute; 
+    display: flex; 
+    padding: 2em;
+    right: 1em;
+    top: 5em;
+    width: 12em;
+    height: 16em;
+    box-shadow: 0 0 4px 2px #0003;
+}
+
+.navbar_menu_container-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%; 
+    height: 100%;
+    gap: 1em;
+}
+
+@media(max-width: 800px){
+    .nav__container{
+        padding: 1.55em 2em;
+    }
+}
+
+@media (max-width: 575px){
+  .nav-section__container{
+    display: none;
+  }
+  .nav-toggle-btn{
+    display: block;
+ }   
+}
+
+
+/* tablet  */
+/* @media (max-width: 800px){
+    .nav__container{
+        padding: 1.55em 2em;
+    }
+} */
+
+
+
+/* mobile hamburger-menu */
+/* @media (max-width: 650px){
+    
+} */
+
+/* 
+@media (max-width: 610px){
+    .nav__container{
+        padding: 1.55em 2em;
+    }
+    .nav__container a > svg{
+        width: 24px;
+    }
+    .nav__container li{
+        font-size: 14px;
+    } 
+} 
+
+@media (max-width: 515px){
+    .nav__container a > svg{
+        width: 24px;
+    }
+    .nav__container li{
+        font-size: 14px;
+    }
+}
+
+*/

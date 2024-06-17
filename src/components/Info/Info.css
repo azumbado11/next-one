@@ -1,0 +1,29 @@
+.info__container{
+    justify-content: space-between;
+    background: var(--shade-color);
+    display: flex;
+}
+
+.info-column__container{
+    display: flex;
+    flex-direction: column;
+    gap: .875em;
+    /* background: silver; */
+    width: 48%;
+}
+
+.info-column__container h1{
+    font-size: 28px;
+}
+
+@media (max-width: 895px){
+    .info__container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .info-column__container{
+        width: 100%;
+    }
+}
+
+

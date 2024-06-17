@@ -1,0 +1,24 @@
+.carousel__container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+    background: silver;
+}
+
+/* .glider-contain{
+    background: slateblue;
+} */
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-wrapper{
+    padding: 1em;
+}
+
+/* .mySwiper{
+    color: red;
+} */
