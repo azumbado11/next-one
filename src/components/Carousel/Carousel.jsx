@@ -59,12 +59,3 @@ const Carrousel = ({ title, items }) => {
 };
 
 export default Carrousel;
-/* https://www.npmjs.com/package/react-items-carousel */
-
-/* 
-https://swiperjs.com/react Librería de carousel 
-https://www.youtube.com/watch?v=tOUlVIMqhcc carousel con swiperjs
-*/
-/* 
-https://www.freecodecamp.org/news/how-to-set-up-swiper-element-in-a-react-application/
-*/

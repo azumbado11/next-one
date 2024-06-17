@@ -6,10 +6,6 @@
     background: silver;
 }
 
-/* .glider-contain{
-    background: slateblue;
-} */
-
 .swiper {
     width: 100%;
     height: fit-content;
@@ -19,6 +15,3 @@
     padding: 1em;
 }
 
-/* .mySwiper{
-    color: red;
-} */

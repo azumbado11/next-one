@@ -42,5 +42,3 @@ const Footer = () => {
 };
 
 export default Footer;
-/* <div className="footer__columns">A</div> */
-/* <div className="socialpill">{Test}</div> */

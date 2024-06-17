@@ -30,14 +30,3 @@ const Card = ({ img, name, category, price, arrival, id }) => {
 
 export default Card;
 /* Item Card just accepts image-url, item-name, item-category and item-price */
-/* Image y title tienen que ser ambos Link que lleven a la página de ese producto */
-/* 
-{category ? <p className="card-text-shade">{category}</p> : null }
-{price ? <p className="card-text-bold">{`$${price}`}</p> : null }
-
-<p className="card-text-shade">{category}</p>
-<p className="card-text-bold">{`$${price}`}</p>
-
-<p className="card-text-bold">{name}</p>
-
-{price ? `$${price}`} :  */

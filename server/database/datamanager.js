@@ -102,18 +102,12 @@ const filter = (sportq, genderq, new_arrivalq, saleq) => {
     })
 }
 
-/* console.log(filter(null, "unisex")) */
-
-/* ./database/datamanager */
-/* 
+/*
 sport values: "all" | "lifestyle" | "football" | "running" | "basketball" | "soccer" | "skateboarding"
 gender values: "all" | "unisex" | "men" | "women"
 */
 
 /* 
-El fetch le está mandando null al API cuando no recibe un req.query, manejar ese request en el filter()
-
-SPORT_QUERY.indexOf(valueA) === -1 ** si indexOf da -1, es que el valor no existe
 
 Filter with only gender and sport req.query
 

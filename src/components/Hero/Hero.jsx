@@ -25,8 +25,3 @@ const Hero = () => {
 };
 
 export default Hero;
-/* 
-<div className="image__container"> 
-  <Image src={heroImage} alt="hero image" fill />
-</div>
-*/

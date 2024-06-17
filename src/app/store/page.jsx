@@ -235,16 +235,3 @@ export default function Store() {
     </main>
   );
 }
-/* "use client" */
-
-/* 
-Cada button hace un fetch a un endpoint, entonces 
-?category= 
-
-
-*/
-/* sale req.param */
-/* 
-pathname + ?query=""
-habría que pasar todos los querys para que se aniden, y no solo cambie uno a la ves
-*/

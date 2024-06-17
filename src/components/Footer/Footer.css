@@ -36,10 +36,6 @@
     place-content: center;
     width: fit-content;
     height: fit-content;
-    /* background: var(--shadeTxt-color);
-    color: var(--text-color);
-    border-radius: 50%;
-    padding: .25em; */
     &:hover{
         color: var(--shadeTxt-color);
     }

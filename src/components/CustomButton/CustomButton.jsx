@@ -10,10 +10,3 @@ const CustomButton = ({ title, styles, handleClick }) => {
 };
 
 export default CustomButton;
-/* 
- styles for dynamic styles
- handleClick for dynamic fnc 
-*/
-/* 
- onClick={handleClick}
-*/

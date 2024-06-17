@@ -224,9 +224,3 @@ export const BOOLEAN__QUERY__INPUTS = ["true", "false"];
         arrival: boolean, /-if true, item goes to New Arrivals Carousel and /shop -/
     }
 */
-/* 
-Routes 
-http://localhost:4000/api/v1/items/?gender=men Men Items
-
-
-*/
