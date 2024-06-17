@@ -10,8 +10,3 @@ router
 
 
 module.exports = router;
-/* 
-hacer sales y new__arrivals como req.querys
-    .get("/sales", controller.getAllSales)
-    .get("/new_arrivals", controller.getAllNewArrivals)
-*/
