@@ -26,7 +26,7 @@ Check [http://localhost:4000](http://localhost:4000) with your browser to see th
 - item  bycategory http://localhost:4000/api/v1/items/category (shoes, clothing, accessories)
 
 ## API Query Filters
-- Filter Items by Query Params
+Filter Items by Query Params (allowed params)
 - Filter by Sport ?sport= (all | lifestyle | football | running | basketball | soccer | skateboarding)
 - Filter by Gender ?gender= (all | unisex | men | women)
 - Filter by Sale ?sale= (true | false)
