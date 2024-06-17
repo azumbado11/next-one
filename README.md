@@ -18,7 +18,7 @@ cd server
 npm run dev
 ```
 Check [http://localhost:3000](http://localhost:3000) with your browser to see the frontend.
-Check [http://localhost:3000](http://localhost:4000) with your browser to see the API.
+Check [http://localhost:4000](http://localhost:4000) with your browser to see the API.
 
 ## API Routes
 - main route  http://localhost:4000/api/v1/items
