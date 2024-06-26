@@ -32,5 +32,5 @@ Filter Items by Query Params (allowed params)
 - Filter by Sale ?sale= (true | false)
 - Filter by New Arrival ?new_arrival= (true | false)		
 
-## Contacto
+## Contact
 Contact me at gv11zumbado@gmail.com
